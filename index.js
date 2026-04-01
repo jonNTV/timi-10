@@ -38,8 +38,13 @@ let users = ["Jón", "Kinga", "Danni", "Agnar"];
 // loopar yfir hvern einasta hlut í fylkinu,
 //  og ef að sá hlutur uppfyllir þessi skilyrði þá skilar það honum
 let danni = users.find((user) => user === "Danni");
-
 console.log(danni)
+
+//FINDINDEX, finnur item í fylki og skilar sæti (index)
+
+let danniIndex = users.findIndex((user)=> user === "Danni")
+console.log(danniIndex)
+
 
 
 
