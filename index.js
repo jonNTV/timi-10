@@ -45,6 +45,30 @@ console.log(danni)
 let danniIndex = users.findIndex((user)=> user === "Danni")
 console.log(danniIndex)
 
+// FALSY VALUES
+// -1 undefined "" null -0 0 NaN
+
+// TRUTHY
+// [] Boolean(0) Boolean("Hello") !!"" 
+
+const todo = [
+  { id: 11, text: "læra", done: { id: 21, text:"4r3", done: true} },
+  { id: 12, text: "æfa", done: true },
+  { id: 13, text: "sofa", done: false }
+]
+
+let æfaIndex = todo.findIndex((todo) => todo.text === "æfa")
+console.log(æfaIndex)
+
+//FOREACH, loopa yfir array og fyrir hvert item ætlum við að keyra skipun
+
+let nums = [1,2,3,4,5]
+
+nums.forEach((num) => console.log(num + 10));
+
+
+
+
 
 
 

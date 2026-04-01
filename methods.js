@@ -66,5 +66,12 @@ const todo = [
   { id: 13, text: "sofa", done: false }
 ]
 
+let id12 = todo.findIndex((item) => item.id === 12);
+let falseIndex =  todo.findIndex((todo) => todo.done === false);
+console.log(id12)
+console.log(falseIndex)
+
 // 1. Finndu index á task með id 12
 // 2. Finndu index á fyrsta task sem er done === false
+
+
